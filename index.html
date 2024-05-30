@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>paulinha_verissi | Instagram</title>
+
+    <!-- CSS -->
+    <link href="./assets/css/com.css" rel="stylesheet" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome CSS -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Conteúdo do Bootstrap -->
+    <div class="container">
+      <div class="box-perfil" style="width: 100px; height: 100px">
+        <img
+          src="./assets/images/image-perfil2.webp"
+          style="width: 100%; height: 100%; object-fit: cover"
+        />
+      </div>
+
+      <div style="display: flex; gap: 5px; align-items: center">
+        <h1>@paulinha_verissi</h1>
+        <svg
+          viewBox="0 0 18 18"
+          height="18"
+          width="18"
+          preserveAspectRatio="xMidYMid meet"
+          version="1.1"
+          x="0px"
+          y="0px"
+          enable-background="new 0 0 18 18"
+          xml:space="preserve"
+        >
+          <polygon
+            id="Star-2"
+            fill="#0099FD"
+            points="9,16 7.1,16.9 5.8,15.2 3.7,15.1 3.4,13 1.5,12 2.2,9.9 1.1,8.2 2.6,6.7 2.4,4.6 4.5,4 5.3,2 7.4,2.4 9,1.1 10.7,2.4 12.7,2 13.6,4 15.6,4.6 15.5,6.7 17,8.2 15.9,9.9 16.5,12 14.7,13 14.3,15.1 12.2,15.2 10.9,16.9 "
+          ></polygon>
+          <polygon
+            id="Check-Icon"
+            fill="#ffffff"
+            points="13.1,7.3 12.2,6.5 8.1,10.6 5.9,8.5 5,9.4 8,12.4 "
+          ></polygon>
+        </svg>
+      </div>
+
+      <!-- <div class="icons">
+      <i class="fab fa-tiktok" style="color: red"></i>
+      <i class="fab fa-whatsapp" style="color: red"></i>
+      <i class="fab fa-instagram" style="color: red"></i>
+    </div> -->
+
+      <p>Compre meus conteúdos clicando nas caixinhas abaixo. ⬇️</p>
+
+      <div class="layer_buttons">
+        <!-- Pacote completo - Checkout (CKT) -->
+        <a
+          class="buttons"
+          href="#"
+          onclick="redirectToEncodedURL('https%3A%2F%2Fapp.antiblock.com.br%2Fpaulinha_veriissimo')"
+        >
+          <div class="w-full h-full">
+            <div class="icons-btn"><img src="./assets/images/lips.webp" /></div>
+            <p>Conteúdo Prémium Vip 😈</p>
+          </div>
+        </a>
+
+        <!-- Página de vendas - Checkout (CKT) -->
+        <a
+          class="buttons"
+          href="#"
+          onclick="redirectToEncodedURL('https%3A%2F%2Fapp.antiblock.com.br%2Fpaulinha_veriissimo02')"
+        >
+          <div class="w-full h-full">
+            <div class="icons-btn"><img src="./assets/images/18.webp" /></div>
+            <p>Pacote Básico Exclusivo🔞</p>
+          </div>
+        </a>
+
+        <!-- Canal Telegram | Prévias -->
+        <a
+          class="buttons"
+          href="#"
+          onclick="redirectToEncodedURL('https%3A%2F%2Fl.instagram.com%2F%3Fu%3Dhttps%253A%252F%252Fapp.antiblock.com.br%252Fpauliinhatl%26e%3DAT104kyPDPKGqRdEegWAYhcctPts84IbjKw-qF8KWCMiN3aI673oonD0QHARM7RJASSuNEhEb7KFblSfd-fZa5ZjHoSAK1boxDTHoPRvhLTVwm7WB7kHUQ')"
+        >
+          <div class="w-full h-full">
+            <div class="icons-btn">
+              <img src="./assets/images/telegram.webp" />
+            </div>
+            <p>Prévias da Paulinha🔥😈</p>
+          </div>
+        </a>
+
+        <!-- Whatsapp -->
+        <a
+          class="buttons"
+          href="#"
+          onclick="redirectToEncodedURL('https%3A%2F%2Fapp.antiblock.com.br%2FpaulinhaWAPP')"
+        >
+          <div class="w-full h-full">
+            <div class="icons-btn">
+              <img src="./assets/images/whatsapp.webp" />
+            </div>
+            <p>Whatsapp Vip Para falar comigo🔥</p>
+          </div>
+        </a>
+        <!--Fecha whatsapp-->
+      </div>
+    </div>
+
+    <!-- jQuery e Popper.js (necessários para o Bootstrap) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.2/umd/popper.min.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+
+    <script>
+      function redirectToEncodedURL(encodedURL) {
+        const decodedURL = decodeURIComponent(encodedURL);
+        window.location.href = decodedURL;
+      }
+    </script>
+  </body>
+</html>
